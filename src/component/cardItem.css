@@ -1,0 +1,28 @@
+.cardItem-single, .cardItem-horz, .cardItem-vrtc {
+  background-color: aqua;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.cardItem-single .cardDescription, .cardItem-horz .cardDescription, .cardItem-vrtc .cardDescription {
+  display: none;
+}
+
+.cardItem-single:hover .cardDescription, .cardItem-horz:hover .cardDescription, .cardItem-vrtc:hover .cardDescription {
+  display: block;
+}
+
+.cardItem-horz {
+  grid-column: span 2;
+}
+
+.cardItem-vrtc {
+  background-color: darkgreen;
+  grid-row: span 2;
+}
+
+.descriptionWrapper {
+  height: 200px;
+  vertical-align: text-bottom;
+}
+/*# sourceMappingURL=cardItem.css.map */

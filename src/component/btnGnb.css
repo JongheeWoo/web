@@ -1,0 +1,20 @@
+.gnbBtn {
+  width: 100%;
+  padding: 8px 33px;
+  border-radius: 12;
+  border-radius: 25.5px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.31px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+.gnbBtn:hover {
+  background: #1e1d30;
+  -webkit-box-shadow: 0 0 12px 12px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 12px 12px rgba(0, 0, 0, 0.5);
+}
+/*# sourceMappingURL=btnGnb.css.map */

@@ -1,0 +1,33 @@
+%cardItem-shared {
+  background-color: aqua;
+  padding: 16px;
+  border-radius: 4px;
+  .cardDescription {
+    display: none;
+  }
+  &:hover {
+    .cardDescription {
+      display: block;
+    }
+  }
+}
+
+.cardItem-single {
+  @extend %cardItem-shared;
+}
+
+.cardItem-horz {
+  @extend %cardItem-shared;
+  grid-column: span 2;
+}
+
+.cardItem-vrtc {
+  @extend %cardItem-shared;
+  background-color: darkgreen;
+  grid-row: span 2;
+}
+
+.descriptionWrapper {
+  height: 200px;
+  vertical-align: text-bottom;
+}

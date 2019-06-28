@@ -1,0 +1,19 @@
+.worksWrapper {
+  max-width: 1080px;
+  margin: auto;
+}
+
+.title {
+  margin: 96px auto 72px;
+}
+
+.cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(320px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  -ms-grid-rows: (minmax(320px, 1fr))[auto-fill];
+      grid-template-rows: repeat(auto-fill, minmax(320px, 1fr));
+  grid-gap: 26px;
+}
+/*# sourceMappingURL=works.css.map */

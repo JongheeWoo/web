@@ -1,0 +1,17 @@
+.gnbBtn {
+  width: 100%;
+  padding: 8px 33px;
+  border-radius: 12;
+  border-radius: 25.5px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.31px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 16px;
+  cursor: pointer;
+  &:hover {
+    background: #1e1d30;
+    box-shadow: 0 0 12px 12px rgba(0, 0, 0, 0.5);
+  }
+}

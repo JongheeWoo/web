@@ -1,0 +1,14 @@
+.worksWrapper {
+  max-width: 1080px;
+  margin: auto;
+}
+
+.title {
+  margin: 96px auto 72px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(320px, 1fr));
+  grid-gap: 26px;
+}
