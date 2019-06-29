@@ -1,28 +1,145 @@
-.cardItem-single, .cardItem-horz, .cardItem-vrtc {
-  background-color: aqua;
-  padding: 16px;
-  border-radius: 4px;
-}
-
-.cardItem-single .cardDescription, .cardItem-horz .cardDescription, .cardItem-vrtc .cardDescription {
-  display: none;
-}
-
-.cardItem-single:hover .cardDescription, .cardItem-horz:hover .cardDescription, .cardItem-vrtc:hover .cardDescription {
-  display: block;
-}
-
-.cardItem-horz {
+.p {
   grid-column: span 2;
 }
 
-.cardItem-vrtc {
-  background-color: darkgreen;
+.vertical {
   grid-row: span 2;
 }
 
-.descriptionWrapper {
-  height: 200px;
-  vertical-align: text-bottom;
+.horizontal {
+  grid-column: span 2;
+}
+
+.cardItem {
+  width: 100%;
+  width: 100%;
+  border-radius: 4px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.03);
+          box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.03);
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.cardItem:hover, .cardItem:focus {
+  -webkit-box-shadow: 0px 0px 16px 16px rgba(0, 0, 0, 0.14);
+          box-shadow: 0px 0px 16px 16px rgba(0, 0, 0, 0.14);
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  color: white;
+}
+
+.cardItem:hover .background-img, .cardItem:focus .background-img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.cardItem:hover .description, .cardItem:focus .description {
+  opacity: 1;
+}
+
+.cardItem:hover .background-dimmer, .cardItem:focus .background-dimmer {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.textWrapper {
+  padding: 3em;
+}
+
+.textWrapper ul {
+  width: 100%;
+  height: 100%;
+}
+
+.cardTitle {
+  margin-bottom: 1.5em;
+}
+
+.background-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.background-dimmer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.description {
+  text-align: left;
+  color: white;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.metaData {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 12px;
+}
+
+.metaData :first-child {
+  font-weight: 200;
+  color: gray;
+}
+
+.img-0 {
+  background-image: url(../res/cardCoverImg-0.webp);
+}
+
+.img-1 {
+  background-image: url(../res/cardCoverImg-1.webp);
+}
+
+.img-2 {
+  background-image: url(../res/cardCoverImg-2.webp);
+}
+
+.img-3 {
+  background-image: url(../res/cardCoverImg-3.webp);
+}
+
+.img-4 {
+  background-image: url(../res/cardCoverImg-4.webp);
+}
+
+.img-5 {
+  background-image: url(../res/cardCoverImg-5.webp);
+}
+
+.img-6 {
+  background-image: url(../res/cardCoverImg-6.webp);
+}
+
+.img-7 {
+  background-image: url(../res/cardCoverImg-7.webp);
+}
+
+.img-8 {
+  background-image: url(../res/cardCoverImg-8.webp);
+}
+
+.img-9 {
+  background-image: url(../res/cardCoverImg-9.webp);
+}
+
+.img-10 {
+  background-image: url(../res/cardCoverImg-10.webp);
 }
 /*# sourceMappingURL=cardItem.css.map */

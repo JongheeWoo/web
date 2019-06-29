@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://jongheewoo.github.io/web/",
   "dependencies": {
+    "framer": "^1.0.12",
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

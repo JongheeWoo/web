@@ -1,33 +1,93 @@
-%cardItem-shared {
-  background-color: aqua;
-  padding: 16px;
+.p {
+  grid-column: span 2;
+}
+
+.vertical {
+  grid-row: span 2;
+}
+
+.horizontal {
+  grid-column: span 2;
+}
+// Card Contents
+.cardItem {
+  width: 100%;
+  width: 100%;
   border-radius: 4px;
-  .cardDescription {
-    display: none;
-  }
-  &:hover {
-    .cardDescription {
-      display: block;
+  overflow: hidden;
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.03);
+  position: relative;
+  cursor: pointer;
+  transition: all 0.5s;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 0px 16px 16px rgba(0, 0, 0, 0.14);
+    transform: scale(1.02);
+    color: white;
+    .background-img {
+      transform: scale(1.2);
+    }
+    .description {
+      opacity: 1;
+    }
+    .background-dimmer {
+      background-color: rgba(0, 0, 0, 0.7);
     }
   }
 }
 
-.cardItem-single {
-  @extend %cardItem-shared;
+.textWrapper {
+  padding: 3em;
+  ul {
+    width: 100%;
+    height: 100%;
+  }
+}
+.cardTitle {
+  margin-bottom: 1.5em;
+}
+.background-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  transition: all 0.5s;
 }
 
-.cardItem-horz {
-  @extend %cardItem-shared;
-  grid-column: span 2;
+.background-dimmer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  transition: all 0.5s;
 }
 
-.cardItem-vrtc {
-  @extend %cardItem-shared;
-  background-color: darkgreen;
-  grid-row: span 2;
+.description {
+  text-align: left;
+  color: white;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.metaData {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  :first-child {
+    font-weight: 200;
+    color: gray;
+  }
 }
 
-.descriptionWrapper {
-  height: 200px;
-  vertical-align: text-bottom;
+//Card Background Image
+$my-colors: ("green", #008000, "blue", #0000ff, "orange", #fca644);
+$color-0: #008000;
+$color-1: #0000ff;
+$color-2: #fca644;
+
+@for $i from 0 through 10 {
+  .img-#{$i} {
+    background-image: url(../res/cardCoverImg-#{$i}.webp);
+  }
 }

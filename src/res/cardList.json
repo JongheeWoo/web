@@ -1,0 +1,87 @@
+[
+  {
+    "project": "1",
+    "tag": "Client Project, UX/UI Design, User Research",
+    "date": "2019.2-6.",
+    "title": "Starbucks UX Consulting",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quod perspiciatis, modi illo quisquam officiis repudiandae quia aut quo sapiente laudantium hic officia obcaecati accusantium. Quos repudiandae aut perspiciatis quas.",
+    "layout": "horizontal"
+  },
+  {
+    "project": "2",
+    "tag": "Client Project, UX/UI Design",
+    "date": "2018.5.-12.",
+    "title": "Share Office Management System",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quod perspiciatis, modi illo quisquam officiis repudiandae quia aut quo sapiente laudantium hic officia obcaecati accusantium. Quos repudiandae aut perspiciatis quas.",
+    "layout": "vertical"
+  },
+  {
+    "project": "4",
+    "tag": "Client Project, Work Process",
+    "date": "2018.12",
+    "title": "UX/UI Process Consulting",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quod perspiciatis, modi illo quisquam officiis repudiandae quia aut quo sapiente laudantium hic officia obcaecati accusantium. Quos repudiandae aut perspiciatis quas.",
+    "layout": "horizontal"
+  },
+  {
+    "project": "5",
+    "tag": "Client Project, UX/UI",
+    "date": "2018.1.-4",
+    "title": "Car Sharing App Project",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quod perspiciatis, modi illo quisquam officiis repudiandae quia aut quo sapiente laudantium hic officia obcaecati accusantium. Quos repudiandae aut perspiciatis quas.",
+    "layout": "vertical"
+  },
+
+  {
+    "project": "6",
+    "tag": "Client Project, CUI, Chatbot",
+    "date": "2017.8-12",
+    "title": "Chatbot Consulting",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quod perspiciatis, modi illo quisquam officiis repudiandae quia aut quo sapiente laudantium hic officia obcaecati accusantium. Quos repudiandae aut perspiciatis quas.",
+    "layout": "horizontal"
+  },
+  {
+    "project": "3",
+    "tag": "Client Project, UT, User Research",
+    "date": "2018.11-2019.2",
+    "title": "Car Infortainment System Usability Test",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quod perspiciatis, modi illo quisquam officiis repudiandae quia aut quo sapiente laudantium hic officia obcaecati accusantium. Quos repudiandae aut perspiciatis quas.",
+    "layout": "horizontal"
+  },
+  {
+    "project": "7",
+    "tag": "Side Project, UX/UI, Mobile App",
+    "date": "2018.5-2019.3",
+    "title": "Plug Messenger App",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quod perspiciatis, modi illo quisquam officiis repudiandae quia aut quo sapiente laudantium hic officia obcaecati accusantium. Quos repudiandae aut perspiciatis quas.",
+    "layout": "horizontal"
+  },
+  {
+    "project": "8",
+    "tag": "Side Project, UX/UI, Mobile App",
+    "date": "2019.1.-2.",
+    "title": "Meal Diary App",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quod perspiciatis, modi illo quisquam officiis repudiandae quia aut quo sapiente laudantium hic officia obcaecati accusantium. Quos repudiandae aut perspiciatis quas."
+  },
+  {
+    "project": "9",
+    "tag": "Side Project, Web, Coding",
+    "date": "2019.1.",
+    "title": "UT Timer Web",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quod perspiciatis, modi illo quisquam officiis repudiandae quia aut quo sapiente laudantium hic officia obcaecati accusantium. Quos repudiandae aut perspiciatis quas."
+  },
+  {
+    "project": "10",
+    "tag": "Side Project, UX/UI, Mobile",
+    "date": "2018.1.-2.",
+    "title": "Timary App",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quod perspiciatis, modi illo quisquam officiis repudiandae quia aut quo sapiente laudantium hic officia obcaecati accusantium. Quos repudiandae aut perspiciatis quas."
+  },
+  {
+    "project": "11",
+    "tag": "Side Project, Chatbot",
+    "date": "2018.8.-12.",
+    "title": "Paper Bot - Welcome chatbot",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quod perspiciatis, modi illo quisquam officiis repudiandae quia aut quo sapiente laudantium hic officia obcaecati accusantium. Quos repudiandae aut perspiciatis quas."
+  }
+]

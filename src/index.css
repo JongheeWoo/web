@@ -9,3 +9,30 @@ h1 {
   font-size: 65px;
   color: #dedee0;
 }
+
+h2 {
+  all: unset;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+h3 {
+  all: unset;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+p {
+  all: unset;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+}
